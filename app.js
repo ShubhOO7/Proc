@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 
 
 //Mongoose Connection
-const DB = ""
+const DB = "mongodb+srv://Shubham:Shubh165@cluster0.ptpsp.mongodb.net/Proc?retryWrites=true&w=majority"
 mongoose.connect(DB,{ 
     useNewUrlParser : true  , 
     useUnifiedTopology : true
